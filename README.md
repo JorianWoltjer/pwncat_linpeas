@@ -13,4 +13,4 @@ $ ln -s $(pwd)/linpeas.py ~/.local/share/pwncat/modules/
 
 ## Example
 
-
+[![Pwncat LinPEAS module](https://asciinema.org/a/iid2O4JOCgAwZFR6L0EC1Ql55.svg)](https://asciinema.org/a/iid2O4JOCgAwZFR6L0EC1Ql55?autoplay=1)

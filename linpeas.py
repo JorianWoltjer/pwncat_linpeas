@@ -51,4 +51,7 @@ class Module(BaseModule):
         with open(filename, "wb") as f:
             f.write(data)
 
+        yield Status(f"Cleaning up [red]{remote_script}[/red] and [red]{remote_output}[/red]...")
+        session.platform.run(f"rm {remote_script} {remote_output}")
+
         session.log(f"Done. Saved output locally to [blue]./{filename}[/blue]")
